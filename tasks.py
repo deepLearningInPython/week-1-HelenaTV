@@ -52,6 +52,6 @@ def ReLu(array, cutoff = 0):
 
 def neural_net_layer(two_dim, one_dim):
   combination = two_dim * one_dim
-  return reLu(combination)
+  return ReLu(combination)
 
 # ------------------------------------------
